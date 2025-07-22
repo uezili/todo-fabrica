@@ -1,0 +1,19 @@
+header{
+    @apply bg-blue-400 w-full flex justify-between items-center text-lg;
+}
+
+header > div{
+    @apply container mx-auto flex justify-center items-center;
+}
+
+header .title{
+    @apply flex justify-between items-center
+}
+
+header nav ul{
+    @apply flex space-x-4 text-white;
+}
+
+header h1{
+    @apply text-white text-2xl font-semibold p-4;
+}

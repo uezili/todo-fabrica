@@ -1,0 +1,109 @@
+
+.modal{
+  @apply bg-[#ffffff] border rounded-2xl shadow-2xl absolute m-6 p-8 left-1/2 top-1/2;
+  transform: translate(-50%, -50%);
+}
+
+.todo-title{
+  @apply px-1 py-4 flex items-center;
+}
+
+.todo-title::before{
+  @apply content-[''] w-6 h-6 bg-[url("./public/icons/chevronLeft.svg")];
+  background-size: 24px;
+}
+
+.open-modal{
+  @apply right-[10%] fixed p-3 rounded-full bg-blue-700 top-3/4 hover:bg-blue-500;
+}
+
+svg {
+  @apply w-7 h-7;
+}
+
+.open-modal > svg{
+  @apply duration-150;
+}
+
+.edit-button{
+  @apply p-2 rounded-lg;
+}
+
+.edit-button::after{
+  @apply w-6 h-6 block content-[""] bg-[url("/icons/pencil.svg")];
+  background-size: 24px;
+}
+
+.edit-button:hover{
+  @apply bg-blue-200;
+}
+
+.edit-button:hover::after {
+  @apply bg-[url("./public/icons/pencil-hover.svg")];
+}
+
+.edit-button{
+  @apply p-2 rounded-lg;
+}
+
+.edit-button::after{
+  @apply w-6 h-6 bg-[url("./public/icons/pencil.svg")];
+  content: "";
+  background-size: 24px;
+}
+
+.edit-button:hover{
+  @apply bg-blue-200;
+}
+
+.edit-button:hover::after {
+  @apply bg-[url("./public/icons/pencil-hover.svg")];
+}
+
+.delete-button{
+  @apply text-[#D71313] p-2 rounded-lg;
+}
+
+.delete-button::after{
+  @apply w-6 h-6 block content-[""] bg-[url("./public/icons/trash.svg")];
+  background-size: 22px;
+}
+
+.delete-button:hover{
+  @apply bg-red-200;
+}
+
+.delete-button:hover::after {
+  @apply bg-[url("./public/icons/trash-hover.svg")];
+}
+
+.button-canceled-primary{
+  @apply w-full flex justify-center gap-2 text-xl items-center rounded-md bg-red-500 text-white px-3.5 py-2.5 text-center shadow-sm hover:bg-red-700;
+}
+
+.button-canceled-primary::before{
+  @apply w-6 h-6 bg-[url("./public/icons/trash-white.svg")];
+  content: "";
+  background-size: 22px;
+}
+
+.button-canceled-primary::before:hover{
+  @apply bg-[url("./public/icons/trash-white-hover.svg")];
+}
+
+.button-secondary{
+  @apply w-full flex justify-center gap-2 text-xl items-center text-black rounded-md border-2 border-blue-500  px-3.5 py-2.5 text-center shadow-sm hover:bg-blue-200;
+}
+
+.modal-description, .modal-form, .modal-edit{
+  @apply w-3/4 h-3/4 bg-[#ffffff] border border-gray-700 rounded-2xl shadow-2xl absolute p-8 left-1/2 top-1/2;
+  transform: translate(-50%, -50%);
+}
+
+.button-description{
+  @apply  p-3 mr-3 flex justify-center items-center rounded-lg border-solid border-2 border-gray-700 px-3.5 py-2.5 text-center text-sm text-black shadow-sm hover:bg-gray-700 hover:border-gray-500 hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600;
+}
+
+span{
+  @apply my-3;
+}

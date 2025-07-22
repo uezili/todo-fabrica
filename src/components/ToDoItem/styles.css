@@ -1,0 +1,89 @@
+.todo-item {
+  @apply bg-white w-[94%] rounded-xl p-3 mt-3 border border-solid border-gray-800 mb-2 hover:shadow-lg;
+}
+
+svg {
+  @apply w-7 h-7;
+}
+
+.todo-item h2 {
+  @apply text-lg font-semibold;
+}
+
+.date-data{
+  @apply flex justify-between items-center gap-3;
+}
+
+.edit-button{
+  @apply text-[#0288d1] p-2 rounded-lg;
+}
+
+.edit-button::after{
+  @apply w-6 h-6;
+  content: "";
+  background-image: url("../../../public/icons/pencil.svg");
+  background-size: 24px;
+}
+
+.edit-button:hover{
+  @apply bg-blue-200;
+}
+
+.edit-button:hover::after {
+  background-image: url("../../../public/icons/pencil-hover.svg");
+}
+
+.delete-button{
+  @apply text-[#D71313] p-2 rounded-lg;
+}
+
+.delete-button::after{
+  @apply w-6 h-6;
+  content: "";
+  background-image: url("../../../public/icons/trash.svg");
+  background-size: 22px;
+}
+
+.delete-button:hover{
+  @apply bg-red-200;
+}
+
+.delete-button:hover::after {
+  background-image: url("../../../public/icons/trash-hover.svg");
+}
+
+span{
+  @apply flex justify-end ;
+}
+
+.select-date{
+  @apply block w-[30%] rounded-xl border-0 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-sm sm:leading-6;
+}
+
+.select-date > div{
+  @apply rounded-xl;
+}
+
+.select-date input{
+  grid-area: auto !important;
+  min-width: 0px !important;
+}
+.container-information > .select {
+  @apply w-full p-0 border-gray-800 border;
+}
+
+.container-information > .select .options{
+  @apply w-[20.6%];
+}
+
+.title-data{
+  @apply font-semibold text-ellipsis overflow-hidden;
+}
+
+.description-content{
+  @apply font-sans mt-3 mb-5;
+}
+
+.completed{
+  @apply bg-green-300 rounded-lg;
+}

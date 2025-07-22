@@ -1,0 +1,39 @@
+h1.tile-page {
+  @apply pb-5;
+}
+form {
+  @apply mx-auto max-w-xl;
+}
+
+label {
+  @apply block text-sm leading-6 font-semibold text-gray-900;
+}
+
+input[type="text"] {
+  @apply block w-full mb-8 rounded-md border border-gray-700  px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-sm sm:leading-6;
+}
+
+input[type="date"]{
+  @apply block rounded-md w-full border border-gray-700 px-3.5 py-2.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-sm sm:leading-6;
+}
+
+.description{
+  @apply block w-80 h-72 border border-gray-700 resize-none font-sans rounded-md px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-sm sm:leading-6;
+}
+
+button[type="submit"].button-submit{
+  @apply flex justify-center mt-8 items-center w-full rounded-md bg-blue-700 px-3.5 py-2.5 text-center text-sm text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600;
+}
+
+button[type="submit"].button-submit svg{
+  @apply ml-2 w-6 h-6;
+}
+
+.select{
+  @apply block w-full rounded-md border border-gray-700  text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-sm sm:leading-6;
+}
+
+.select input{
+  grid-area: auto !important;
+  min-width: 0px !important;
+}

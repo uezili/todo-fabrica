@@ -1,0 +1,9 @@
+
+button[type="submit"].button-save{
+  @apply w-full rounded-lg bg-green-500 text-white px-3.5 py-2.5 text-center text-sm shadow-sm hover:bg-green-700;
+}
+
+button[type="button"].button-canceled{
+  @apply w-full rounded-lg bg-red-500 text-white px-3.5 py-2.5 text-center text-sm shadow-sm hover:bg-red-700;
+
+}

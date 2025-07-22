@@ -1,0 +1,15 @@
+.select-filters {
+  @apply flex justify-start;
+}
+
+.select-filters .select {
+  @apply w-full bg-white hover:shadow-lg;
+};
+
+.select-filters label {
+  @apply mr-3 w-[19%];
+}
+
+button {
+  @apply border-solid border hover:shadow-lg;
+}

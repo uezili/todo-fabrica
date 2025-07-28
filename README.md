@@ -1,7 +1,15 @@
 # todo-fabrica
-Projeto que tem um objeto de ser um campo de treinamento de automação de testes. Esse projeto foi feito para o projeto de extenção da Universidade Estadual do Ceará(UECE).
 
-<img src="/public/icons/fabrica.png" width=150px heigh=150px alt="Logo Fábrica de Testadores">
+<div style="display: flex; justify-content: space-between;">
+  <div style="width: 48%;" style="align-items: center;">
+    <img src="/public/icons/fabrica.png" width=150px heigh=150px alt="Logo Fábrica de Testadores">
+  </div>
+  <div style="width: 48%;">
+Projeto que tem um objeto de ser um campo de treinamento de automação de testes. Esse projeto foi feito para o projeto de extenção da Universidade Estadual do Ceará(UECE).
+  </div>
+</div>
+
+
 
 # Comandos importantes do projeto
 > Obs: **Para poder rodar a aplicação deve se ter o [node](https://nodejs.org/en/download) instalado.**

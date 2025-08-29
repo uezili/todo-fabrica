@@ -25,6 +25,9 @@ jobs:
       - name: Install frontend dependencies
         run: npm install --legacy-peer-deps
 
+      - name: Unit Tests
+        run: npm run test
+
       - name: Build project
         run: npm run build
         

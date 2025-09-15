@@ -2,21 +2,21 @@
 
 <div style="display: flex; justify-content: space-between;">
   <div style="width: 48%;" style="align-items: center;">
-    <img src="/public/icons/fabrica.png" width=150px heigh=150px alt="Logo Fábrica de Testadores">
+    <img src="/icons/fabrica.png" width=150px heigh=150px alt="Logo Fábrica de Testadores">
   </div>
   <div style="width: 48%;">
 Projeto que tem um objeto de ser um campo de treinamento de automação de testes. Esse projeto foi feito para o projeto de extenção da Universidade Estadual do Ceará(UECE).
   </div>
 </div>
 
-
-
 # Comandos importantes do projeto
+
 > Obs: **Para poder rodar a aplicação deve se ter o [node](https://nodejs.org/en/download) instalado.**
 
 Primeiro devemos instalar os packages necessários para poder rodar iniciar o projeto.
 
 ### Instalação dos packages
+
 Para iniciar o projeto, rode o seguinte comando:
 
 ```bash
@@ -24,6 +24,7 @@ Para iniciar o projeto, rode o seguinte comando:
 ```
 
 ### iniciar
+
 Para iniciar o projeto, rode o seguinte comando:
 
 ```bash
@@ -31,6 +32,7 @@ Para iniciar o projeto, rode o seguinte comando:
 ```
 
 ### Parar
+
 Para encerrar o serviço, execute o seguinte comando pressionando:
 
 ```bash
@@ -38,6 +40,7 @@ Para encerrar o serviço, execute o seguinte comando pressionando:
 ```
 
 ### Testes
+
 Para executar os testes unitários deve ser usado o seguinte comando:
 
 ```bash
@@ -45,6 +48,7 @@ Para executar os testes unitários deve ser usado o seguinte comando:
 ```
 
 ### Status da cobertura de testes
+
 Para acessar o relatório de cobertura de testes, execute o seguinte comando:
 
 > Obs: será gerado uma pasta chamada **coverage**, deve ser aberto o arquivo **index.html** no navegador.
@@ -54,6 +58,7 @@ Para acessar o relatório de cobertura de testes, execute o seguinte comando:
 ```
 
 # Tecnologias usadas
+
 <div>
   <img height=50 width=40 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
   <img height=50 width=40 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />

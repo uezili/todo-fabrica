@@ -21,7 +21,7 @@ svg {
 .edit-button::after{
   @apply w-6 h-6;
   content: "";
-  background-image: url("../../../public/icons/pencil.svg");
+  background-image: url("/icons/pencil.svg");
   background-size: 24px;
 }
 
@@ -30,7 +30,7 @@ svg {
 }
 
 .edit-button:hover::after {
-  background-image: url("../../../public/icons/pencil-hover.svg");
+  background-image: url("/icons/pencil-hover.svg");
 }
 
 .delete-button{
@@ -40,7 +40,7 @@ svg {
 .delete-button::after{
   @apply w-6 h-6;
   content: "";
-  background-image: url("../../../public/icons/trash.svg");
+  background-image: url("/icons/trash.svg");
   background-size: 22px;
 }
 
@@ -49,7 +49,7 @@ svg {
 }
 
 .delete-button:hover::after {
-  background-image: url("../../../public/icons/trash-hover.svg");
+  background-image: url("/icons/trash-hover.svg");
 }
 
 span{

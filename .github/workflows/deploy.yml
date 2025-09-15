@@ -7,7 +7,7 @@ on:
     branches: [ "main" ]
 
 jobs:
-  frontend-test:
+  build:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -30,7 +30,10 @@ jobs:
 
       - name: Build project
         run: npm run build
-        
+  test: 
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
       - name: Clone Selenium Project
         run: |
           git clone https://github.com/uezili/selenium-project-test.git

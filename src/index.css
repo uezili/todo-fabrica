@@ -10,7 +10,7 @@ body {
   @apply m-0 p-0 font-sans bg-gray-200 
 
 }body{
-  @apply content-[''] bg-[url("./public/icons/fabrica.png")] bg-auto bg-center bg-no-repeat h-auto bg-blend-soft-light;
+  @apply content-[''] bg-[url("/icons/fabrica.png")] bg-auto bg-center bg-no-repeat h-auto bg-blend-soft-light;
 }
 
 h1{

@@ -50,10 +50,11 @@ jobs:
       - name: Run Selenium Tests
         working-directory: ./selenium-project-test
         run: mvn clean test
-
-      - name: List files
-        run: ls -la ./dist
-
+        
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
       - name: Deploy 
         uses: peaceiris/actions-gh-pages@v3
         with:

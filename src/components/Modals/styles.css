@@ -9,7 +9,7 @@
 }
 
 .todo-title::before{
-  @apply content-[''] w-6 h-6 bg-[url("/icons/chevronLeft.svg")];
+  @apply content-[''] w-6 h-6 bg-[url("./public/icons/chevronLeft.svg")];
   background-size: 24px;
 }
 
@@ -39,7 +39,7 @@ svg {
 }
 
 .edit-button:hover::after {
-  @apply bg-[url("/icons/pencil-hover.svg")];
+  @apply bg-[url("./public/icons/pencil-hover.svg")];
 }
 
 .edit-button{
@@ -47,7 +47,7 @@ svg {
 }
 
 .edit-button::after{
-  @apply w-6 h-6 bg-[url("/icons/pencil.svg")];
+  @apply w-6 h-6 bg-[url("./public/icons/pencil.svg")];
   content: "";
   background-size: 24px;
 }
@@ -57,7 +57,7 @@ svg {
 }
 
 .edit-button:hover::after {
-  @apply bg-[url("/icons/pencil-hover.svg")];
+  @apply bg-[url("./public/icons/pencil-hover.svg")];
 }
 
 .delete-button{
@@ -65,7 +65,7 @@ svg {
 }
 
 .delete-button::after{
-  @apply w-6 h-6 block content-[""] bg-[url("/icons/trash.svg")];
+  @apply w-6 h-6 block content-[""] bg-[url("./public/icons/trash.svg")];
   background-size: 22px;
 }
 
@@ -74,7 +74,7 @@ svg {
 }
 
 .delete-button:hover::after {
-  @apply bg-[url("/icons/trash-hover.svg")];
+  @apply bg-[url("./public/icons/trash-hover.svg")];
 }
 
 .button-canceled-primary{
@@ -82,13 +82,13 @@ svg {
 }
 
 .button-canceled-primary::before{
-  @apply w-6 h-6 bg-[url("/icons/trash-white.svg")];
+  @apply w-6 h-6 bg-[url("./public/icons/trash-white.svg")];
   content: "";
   background-size: 22px;
 }
 
 .button-canceled-primary::before:hover{
-  @apply bg-[url("/icons/trash-white-hover.svg")];
+  @apply bg-[url("./public/icons/trash-white-hover.svg")];
 }
 
 .button-secondary{
